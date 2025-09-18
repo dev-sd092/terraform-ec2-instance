@@ -1,0 +1,18 @@
+# Terraform state
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Local Terraform dirs
+.terraform/
+
+# Crash log
+crash.log
+
+# Sensitive variables
+terraform.tfvars
+*.tfvars
+
+# Lock file (optional to ignore, can be committed)
+.terraform.lock.hcl
